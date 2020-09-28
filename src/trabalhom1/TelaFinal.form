@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabelVelocidadeDeAtaque" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabelStatsVelocidadeDeAtaque" pref="102" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="487" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabelVelocidadeDeMovimento" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabelStatsVelocidadeDeMovimento" min="-2" pref="98" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabelDanoDeAtaque" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabelStatsDanoDeAtaque" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabelChanceCritico" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabelStatsChanceCritico" min="-2" pref="120" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabelRegenMana" min="-2" pref="160" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelStatsRegenMana" min="-2" pref="107" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabelRegenVida" min="-2" pref="144" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jLabelStatsRegenVida" min="-2" pref="107" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelTituloStats" min="-2" pref="116" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jLabelMana" min="-2" pref="44" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                      <Component id="jLabelVidaChamp" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jLabelNomeChamp" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabelStatsMana" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <Component id="jLabelStatsVida" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <Component id="jLabelStatsNome" min="-2" pref="78" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabelAlcance" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabelStatsAlcance" min="-2" pref="125" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabelResistenciaMagica" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jLabelStatsResistenciaMagica" min="-2" pref="98" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabelArmadura" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jLabelStatsArmadura" min="-2" pref="104" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" pref="120" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelTituloItens" min="-2" pref="168" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jLabelItem6" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelItem5" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelItem4" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelItem3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelItem2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabelItem1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelNomeItem1" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabelNomeItem3" alignment="1" min="-2" pref="235" max="-2" attributes="0"/>
+                              <Component id="jLabelNomeItem4" alignment="1" min="-2" pref="235" max="-2" attributes="0"/>
+                              <Component id="jLabelNomeItem5" alignment="1" min="-2" pref="235" max="-2" attributes="0"/>
+                              <Component id="jLabelNomeItem6" alignment="1" min="-2" pref="235" max="-2" attributes="0"/>
+                              <Component id="jLabelNomeItem2" min="-2" pref="235" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="524" max="-2" attributes="0"/>
+                              <Component id="jTextFieldLevel" min="-2" pref="82" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="414" max="-2" attributes="0"/>
+                              <Component id="jButtonAtualizar" min="-2" pref="310" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="118" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="372" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="393" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelTituloStats" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="jLabelTituloItens" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelNomeChamp" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelStatsNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelItem1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelNomeItem1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelVidaChamp" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelStatsVida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelItem2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelNomeItem2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelMana" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelStatsMana" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelItem3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelNomeItem3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelVelocidadeDeMovimento" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsVelocidadeDeMovimento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelItem4" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="jLabelNomeItem4" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelArmadura" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsArmadura" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelItem5" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="jLabelNomeItem5" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelResistenciaMagica" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsResistenciaMagica" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelItem6" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="jLabelNomeItem6" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelAlcance" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsAlcance" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelRegenVida" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsRegenVida" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelRegenMana" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsRegenMana" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelChanceCritico" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsChanceCritico" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelDanoDeAtaque" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsDanoDeAtaque" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelVelocidadeDeAtaque" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabelStatsVelocidadeDeAtaque" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jTextFieldLevel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButtonAtualizar" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="62" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelNomeChamp">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nome:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTituloStats">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Status Finais"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTituloItens">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Itens Selecionados"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelVidaChamp">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Vida:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMana">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Mana:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelVelocidadeDeMovimento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Velocidade de Movimento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelArmadura">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Armadura:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelResistenciaMagica">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Resistencia M&#xe1;gica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAlcance">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Alcance:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelRegenVida">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Regenera&#xe7;&#xe3;o de Vida:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelChanceCritico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Chance de Cr&#xed;tico:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelRegenMana">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Regenera&#xe7;&#xe3;o de Mana:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDanoDeAtaque">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Dano de Ataque:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelVelocidadeDeAtaque">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Velocidade de Ataque:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsNome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsVida">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsMana">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsVelocidadeDeMovimento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsArmadura">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsResistenciaMagica">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsAlcance">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsRegenVida">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsRegenMana">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsChanceCritico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsDanoDeAtaque">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStatsVelocidadeDeAtaque">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelItem1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Item 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelItem2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Item 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelItem4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Item 4:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelItem3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Item 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelItem5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Item 5:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelItem6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Item 6:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeItem2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                     "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeItem1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                     "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeItem3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                     "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeItem4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                     "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeItem5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                     "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeItem6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                     "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonAtualizar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ATUALIZAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAtualizarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldLevel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldLevelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Digite o n&#xed;vel que seu campe&#xe3;o estaria (Entre 1 e 18)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Maiandra GD" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Voltar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
